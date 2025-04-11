@@ -27,6 +27,16 @@ class Person {
  * 3) method getGrade that returns property grade
  */
 //put your code here
+class Student extends Person {
+  constructor(grade) {
+    super(firstName, lastName);
+    this.grade = grade;
+  }
+
+  getGrade() {
+    return this.grade;
+  }
+}
 
 
 const person = ''; //create instance of class person
