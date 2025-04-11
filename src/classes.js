@@ -9,6 +9,16 @@
  * 3) method getFullName
  */
 //put your code here
+class Person {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+
+  getFullName() {
+    return this.firstName + " " + this.lastName;
+  }
+}
 
 /**
  * implement class Student that extends Person with:
@@ -17,9 +27,7 @@
  * 3) method getGrade that returns property grade
  */
 //put your code here
-class Person {
 
-}
 
 const person = ''; //create instance of class person
 const student = ''; //create instance of class student
